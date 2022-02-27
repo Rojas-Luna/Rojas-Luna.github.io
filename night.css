@@ -1,0 +1,152 @@
+    /* Scroll bar */
+    /* Width */
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background-color: #2E3244;
+        border-radius: 0px;
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #060810; 
+        border-radius: 0px;
+    }
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #000000; 
+    }
+    /* Overall body */
+    body {
+        background-image: linear-gradient(#36454F, #353935);
+        color: #BBBFD4;
+        font-family: "Roboto Serif", "sans-serif";
+        font-size: 16px;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        max-width: 80%;
+        display: block;
+    }
+    /* Top header */
+    div.content {
+        background-color: #2E3244;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        box-shadow: 10px 10px 25px #111421;
+        width: 800px;
+        margin: auto;
+        padding: 10px;
+    }
+    h1.name {
+        font-family: "Roboto Serif";
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        line-height: 10px;
+        padding-right: 40px;
+        padding-top: 3%;
+        text-align: left;
+        text-shadow: 1px 1px #111421;
+        text-transform: uppercase;
+    }
+    h2.contact {
+        font-family: "Yanone Kaffeesatz";
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 5px;
+        padding-right: 30px;
+        opacity: .8;
+        text-align: right;
+        word-spacing: 5px;
+    }
+    hr.top {
+        background-color: #111421; /* Darker blue */
+        border: none;
+        border-radius: 10px;
+        height: 6px;
+    }
+    hr.bottom {
+        background-color: #111421;
+        border: none;
+        height: 2px;
+    }
+    /* Table, rows, columns, & cells */
+    table {
+        border-collapse: collapse;
+        margin: auto;
+        max-width: 90%;
+    }
+    td {
+        border-collapse: collapse;
+        font-weight: normal;
+        vertical-align: top;
+    }
+    td.leftpanel {
+        background-color: #1E2547; /* Light blue */
+        border-color: #111421;
+        border-left-style: solid;
+        padding-right: 10px;
+        text-align: right;
+        text-shadow: 1px 1px #111421;
+        text-transform: uppercase;
+    }
+    td.rightpanel {
+        border-color: #1E2547;
+        border-style: dotted;
+        border-left-style: none;
+        border-right-style: none;
+        border-width: thin;
+        padding-left: 20px;
+        vertical-align: middle;
+    }
+    tr {
+        border-collapse: collapse;
+        font-weight: bold;
+        vertical-align: top;
+    }
+    /* Bullet style */
+    ul.list {
+        list-style-type: "»";
+        margin: 0px;
+        margin-bottom: -1%;
+        margin-top: -2%;
+    }
+    li {
+        line-height: 20px;
+        margin-left: -3%;
+        padding-left: 1em;
+    }
+    /* Button */
+    button.dnbutton {
+        background-color: #1E2547;
+        border: none;
+        border-top-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        box-shadow: 0 5px #111421;
+        cursor: pointer;
+        padding: 10px;
+        margin-top: 40px;
+    }
+    /* Button animation */
+    .dnbutton:hover {
+        background-color: #242B4F;
+    }
+    .dnbutton:active {
+        background-color: #242B4F;
+        box-shadow: 0 3px #111421;
+        transform: translateY(2px);
+    }
+    /*General font edits*/
+    span.underline {
+        border-bottom: 1px dashed #7A85BE;
+        display: inline-block;
+        line-height: 1;
+    }
+    /* Bold tags */
+    b {
+        color: #ffffff;
+    }
